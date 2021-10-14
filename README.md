@@ -1,5 +1,7 @@
 # More UI
 
+![More UI logo](public/logo.png)
+
 **All the power of components, without the overhead:**
 
 - 100% Lighthouse Score
