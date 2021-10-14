@@ -1,0 +1,28 @@
+{
+  "name": "moreui",
+  "version": "1.0.0",
+  "description": "More usable interfaces",
+  "scripts": {
+    "start": "astro dev",
+    "start-css": "npx tailwindcss --postcss -i ./src/css/styles.css -o ./public/styles.css --watch",
+    "build": "astro build",
+    "build-css": "NODE_ENV=production npx tailwindcss --postcss -i ./src/css/styles.css -o ./public/styles.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siriokun/moreui.git"
+  },
+  "author": "Rio Purnomo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siriokun/moreui/issues"
+  },
+  "homepage": "https://github.com/siriokun/moreui#readme",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.3.4",
+    "astro": "^0.20.11",
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.17"
+  }
+}

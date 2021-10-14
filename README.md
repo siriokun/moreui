@@ -1,4 +1,4 @@
-# More Usable Interfaces
+# More UI
 
 **All the power of components, without the overhead:**
 
@@ -6,3 +6,9 @@
 - Astro
 - TailwindCSS
 - Alpine
+
+| Command         | Action                                      |
+|:----------------|:--------------------------------------------|
+| `npm install`   | Installs dependencies                       |
+| `npm start`     | Starts local dev server at `localhost:3000` |
+| `npm run build` | Build your production site to `./dist/`     |
