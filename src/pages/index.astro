@@ -1,5 +1,7 @@
 ---
 import HeadMeta from '../components/HeadMeta.astro';
+import Container from '../components/Container.astro';
+import Form from '../components/Form.astro';
 let title = 'More UI';
 let description = 'More usable interfaces in components';
 ---
@@ -10,10 +12,13 @@ let description = 'More usable interfaces in components';
     <HeadMeta title={title} description={description} />
 </head>
 <body>
-    <div class="bg-white rounded-lg p-5 pb-20 m-5 text-center text-sm text-blue-700 max-w-screen-sm md:my-5 md:m-auto shadow-2xl">
+    <Container>
         <img class="w-1/4 m-auto" src="/logo.png" alt="{title} logo">
         <h1 class="text-3xl mb-5">{title}</h1>
         <p class="text-xl">{description}</p>
-    </div>
+    </Container>
+    <Container>
+        <Form />
+    </Container>
 </body>
 </html>
