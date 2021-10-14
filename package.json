@@ -4,9 +4,7 @@
   "description": "More usable interfaces",
   "scripts": {
     "start": "astro dev",
-    "start-css": "npx tailwindcss --postcss -i ./src/css/styles.css -o ./public/styles.css --watch",
-    "build": "astro build",
-    "build-css": "NODE_ENV=production npx tailwindcss --postcss -i ./src/css/styles.css -o ./public/styles.css --minify"
+    "build": "astro build"
   },
   "repository": {
     "type": "git",
